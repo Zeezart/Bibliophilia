@@ -1,4 +1,4 @@
-import Reaact from 'react'
+import React from 'react'
 import './App.css'
 import Hero from './section/hero'
 import About from './section/about'

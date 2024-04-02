@@ -1,5 +1,5 @@
 import React from "react";
-import friends from "../assets/friends.png"
+import friends from "../assets/friends.png";
 
 function About(){
     return(
@@ -29,9 +29,7 @@ function About(){
             <div class="part-two">
             <img src={friends} alt="friends-reading" class="friends" />
             
-            </div>
-
-    
+            </div>    
 
   </section>
     )

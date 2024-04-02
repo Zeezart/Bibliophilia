@@ -1,9 +1,10 @@
-import React from "react"
-import desktop from "../assets/desktop.png"
+import React from "react";
+import desktop from "../assets/desktop.png";
+import havard from "../assets/havard.png";
 
 function Hero(){
     return(
-        <div className="hero">
+        <><div className="hero">
             <img src={desktop} alt="hero-img" />
             <div className="overlay">
                 <div className="navbar">
@@ -26,8 +27,9 @@ function Hero(){
 
             </div>
 
-        </div>
-
+        </div><div className="sponsor-div">
+                <img src={havard} alt="havard-bus" />
+            </div></>   
     )
 }
 
