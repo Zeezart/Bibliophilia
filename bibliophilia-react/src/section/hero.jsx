@@ -1,6 +1,9 @@
 import React from "react";
 import desktop from "../assets/desktop.png";
 import havard from "../assets/havard.png";
+import airtable from "../assets/airtable.png";
+import dribbble from "../assets/dribbble.png";
+import boom from "../assets/boom.png";
 
 function Hero(){
     return(
@@ -27,9 +30,17 @@ function Hero(){
 
             </div>
 
-        </div><div className="sponsor-div">
+        </div>
+        <div className="sponsor-div">
                 <img src={havard} alt="havard-bus" />
-            </div></>   
+                <img src={airtable} alt="airtable" />
+                <img src={airtable} alt="airtable" />
+                <img src={havard} alt="havard-bus" />
+                <img src={dribbble} alt="havard-bus" />
+                <img src={dribbble} alt="havard-bus" />
+                <img src={boom} alt="boom" />
+
+        </div></>   
     )
 }
 
