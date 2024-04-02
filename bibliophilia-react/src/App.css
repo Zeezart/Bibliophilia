@@ -114,11 +114,10 @@ nav ul li a {
     width: 100%;
     margin-top:2rem; 
     padding-top: 6rem;
-    padding-bottom: 6rem;
     padding-right: 8rem;
     align-items: end;
     justify-content: space-between;
-    gap:0
+    gap:0;
 }
 
 .text{
@@ -135,6 +134,8 @@ nav ul li a {
 }
 .part-one{
 width: 70%;
+margin-bottom: 0.2rem;
+
 /* flex-grow: 2; */
 }
 .part-two{
@@ -142,6 +143,7 @@ width: 70%;
   img{
     width: 100%;
   }
+  
 }
 .vector{
   translate: 36rem 10rem;
@@ -181,4 +183,21 @@ padding-left: 1.5rem;
 }
 .sponsor-div img{
   padding-right: 2.6rem;
+}
+/*feature section*/
+.key-features{
+  margin-top: 3rem;
+}
+.feature-div p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.feature-div h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+.plus{
+ justify-items: right;
 }
