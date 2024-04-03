@@ -199,5 +199,21 @@ padding-left: 1.5rem;
   font-weight: bold;
 }
 .plus{
- justify-items: right;
+position: absolute;
+right: 8rem;
+}
+.sec-one{
+  display: flex;
+  padding-left: 4rem;
+}
+.hourglass{
+  background: #e9e6f9;
+  height: 28.4rem;
+  position: relative;
+  top: 4.5rem;
+  border-radius: 12px;
+}
+.hourglass img{
+  height: 287px;
+  translate: 0 10rem;
 }
