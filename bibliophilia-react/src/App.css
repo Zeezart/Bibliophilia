@@ -186,7 +186,7 @@ padding-left: 1.5rem;
 }
 /*feature section*/
 .key-features{
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 .feature-div p {
   text-align: center;
@@ -201,19 +201,38 @@ padding-left: 1.5rem;
 .plus{
 position: absolute;
 right: 8rem;
+
+
 }
+.swirl{
+  position: absolute;
+  
+  }
 .sec-one{
   display: flex;
-  padding-left: 4rem;
+  padding-left: 2rem;
+  padding-right: 10rem;
+ 
+}
+.girl-reading{
+  width: 80%;
+  padding-left: 5rem;
 }
 .hourglass{
-  background: #e9e6f9;
-  height: 28.4rem;
-  position: relative;
-  top: 4.5rem;
-  border-radius: 12px;
+  width: 23%;
+  margin-top: 4.3rem;
+  height: 28.2rem;
 }
-.hourglass img{
-  height: 287px;
-  translate: 0 10rem;
+.sec-two{
+  justify-content: space-between;
+}
+.community{
+  width: 50%;
+  padding-left: 7rem;
+  padding-right: 1rem;
+}
+.reading-format{
+  width: 50%;
+  padding-right: 7rem;
+  padding-left: rem;
 }

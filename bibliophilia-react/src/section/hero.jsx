@@ -4,6 +4,7 @@ import havard from "../assets/havard.png";
 import airtable from "../assets/airtable.png";
 import dribbble from "../assets/dribbble.png";
 import boom from "../assets/boom.png";
+import logo from "../assets/logo.png";
 
 function Hero(){
     return(
